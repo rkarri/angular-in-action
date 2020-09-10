@@ -7,10 +7,11 @@ import { HelloComponent } from './hello.component';
 import { HttpClientModule} from '@angular/common/http';
 import {StocksService} from './services/stocks.service';
 import { SummaryComponent } from './summary/summary.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, HttpClientModule ],
-  declarations: [ AppComponent, HelloComponent, SummaryComponent ],
+  declarations: [ AppComponent, HelloComponent, SummaryComponent, DashboardComponent ],
   bootstrap:    [ AppComponent ],
   providers: [StocksService]
 })
