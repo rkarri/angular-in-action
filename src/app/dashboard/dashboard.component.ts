@@ -1,4 +1,4 @@
-import { Component, OnInit, onDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { StocksService, StockInterface } from '../services/stocks.service';
 
 interface Metric {

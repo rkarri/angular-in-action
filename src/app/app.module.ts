@@ -10,10 +10,11 @@ import { SummaryComponent } from './summary/summary.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ManageComponent } from './manage/manage.component';
 import { AppRoutes } from './app.routes';
+import { MetricComponent } from './metric/metric.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, HttpClientModule, AppRoutes ],
-  declarations: [ AppComponent, HelloComponent, SummaryComponent, DashboardComponent, ManageComponent ],
+  declarations: [ AppComponent, HelloComponent, SummaryComponent, DashboardComponent, ManageComponent, MetricComponent ],
   bootstrap:    [ AppComponent ],
   providers: [StocksService]
 })
