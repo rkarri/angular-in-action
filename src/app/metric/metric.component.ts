@@ -8,7 +8,7 @@ import {FormsModule} from '@angular/forms';
 })
 export class MetricComponent {
   @Input() title: string = '';
-  @Input() desc: string = '';
+  @Input() description: string = '';
   @Input('used') value: number = 0;
   @Input('available') max: number = 100;
 
