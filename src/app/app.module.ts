@@ -15,10 +15,12 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 import { CommonModule } from '@angular/common';
+import { NodesComponent } from './nodes/nodes.component';
+import { NodesRowComponent } from './nodes-row/nodes-row.component';
 
 @NgModule({
   imports:      [ BrowserModule, CommonModule, FormsModule, HttpClientModule, AppRoutes, NgbModule.forRoot() ],
-  declarations: [ AppComponent, HelloComponent, SummaryComponent, DashboardComponent, ManageComponent, MetricComponent ],
+  declarations: [ AppComponent, HelloComponent, SummaryComponent, DashboardComponent, ManageComponent, MetricComponent, NodesComponent, NodesRowComponent ],
   bootstrap:    [ AppComponent ],
   providers: [StocksService]
 })
