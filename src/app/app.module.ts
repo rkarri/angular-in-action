@@ -22,6 +22,7 @@ import { NodesRowComponent } from './nodes-row/nodes-row.component';
   imports:      [ BrowserModule, CommonModule, FormsModule, HttpClientModule, AppRoutes, NgbModule.forRoot() ],
   declarations: [ AppComponent, HelloComponent, SummaryComponent, DashboardComponent, ManageComponent, MetricComponent, NodesComponent, NodesRowComponent ],
   bootstrap:    [ AppComponent ],
-  providers: [StocksService]
+  providers: [StocksService],
+  schemas: [NO_ERRORS_SCHEMA]
 })
 export class AppModule { }
